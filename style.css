@@ -1,0 +1,586 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body hr.line {
+    border-top: 1px solid rgb(137, 137, 137);
+}
+.banner{
+    background-image: url("image/header.png");
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+}
+.main-container{
+    background-color:rgba(82, 84, 92, 0.938);;
+    opacity: 0.7;
+    width: 100%;
+}
+.banner .hbox{
+    display: flex;
+    justify-content: center;
+}
+.banner .container .hbox .hl1{
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    padding-right: 8px;
+}
+.banner .container .hbox .hl2{
+    color: white;
+    font-weight: bold;
+    padding: 0;
+}
+.banner .hl3{
+    color: white;
+    font-weight: bold;
+    padding: 0;
+}
+
+.headp p{
+    width: 50%;
+    color:white;
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.logo {
+    width: 50%;
+    padding-left: 10%;
+}
+.logo {
+    color: white;
+}
+.menu{
+    width: 50%;
+}
+ .navbar-nav.nav-item.nav-link{
+    color: white;
+}
+
+/*Featured Testimonial*/
+.container h3{
+    padding-top: 2rem ;
+    text-align: center;
+    color:rgb(29,27,61);
+    padding-bottom: 2rem;
+}
+hr.line {
+    border-top: 1px solid rgb(117, 108, 108);
+}
+.ftb{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    padding-top: 3rem;
+}
+.ftt{
+    width: 65%;
+    color: rgb(21, 21, 107);
+    font-weight: 600;
+    line-height: 2rem;
+    padding-right: 2rem;
+}
+.ftl{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.ftl.col-lg-4{
+    align-items:flex-end ;
+}
+
+.ftl img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.ftl h6{
+    color:rgb(7, 7, 53);
+    font-weight: bold;
+}
+.ftl p{
+    color:rgb(162, 162, 175);
+    font-weight: 650;
+    font-size: 13px;
+    text-align: end;
+}
+hr.line {
+    border-top: 1px solid rgb(117, 108, 108);
+}
+/*Featured Slider*/
+.featuredbox{
+    display: flex;
+    justify-content: start;
+}
+.featuredbox .slick-slider{
+    display: flex;
+    justify-content: flex-end;
+}
+.featuredbox .slick-arrow{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin: auto;
+}
+.featuredbox .col-lg{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.featuredimage{
+    height: 120px;
+    width: 120px;
+}
+/*Video testimonial*/
+.vtb{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 1rem;
+}
+.vti{
+    display: flex;
+    flex-direction: column;
+}
+.vti.col-lg-6{
+    align-items: flex-end;
+}
+.vtl{
+    display: flex;
+    flex-direction: column;
+}
+.vtl img{
+    height: 30px;
+    width: 180px;
+    margin-bottom: 1rem;
+}
+.vtl h5{
+    color:white;
+    font-weight: bold;
+}
+.vtl p{
+    color:rgb(162, 162, 175);
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.vti img{
+    height: 180px;
+    width: 350px;
+}
+.btn button{
+    background: transparent;
+    border: none;
+}
+.btn button:focus{
+    outline: none;
+}
+.btn img{
+    height: 40px;
+    margin-top: 30px;
+}
+.videonextarrow {
+    height: 40px;
+}
+.videoslider .slick-arrow{
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+}
+.imgvdo{
+    margin-top: -113px;
+    margin-right: 159px;
+}
+
+/*Poster*/
+.posterbg{
+    height: 25rem;
+    background-image: url("image/poster.png");
+    position: relative;
+}
+.posterbg .poster {
+    width: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.poster p{
+    color: white;
+    font-weight: 650;
+    text-align: center;
+}
+.poster h5{
+    color: white;
+    text-align: center;
+}
+.poster button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+/*happy client*/
+
+/*Trust Pilot*/
+.trustPilotbg{
+    height: 39rem;
+    background-color:rgba(231, 231, 231, 0.973);
+    position: relative;
+}
+.trustPilotbg h5{
+    text-align: center;
+    padding-top: 1rem;
+    color:rgb(29,27,61);
+    font-weight: bold;
+}
+.trustPilotbg .trustPilot{
+    height: fit-content;
+    background-color: rgba(210, 214, 223);
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.pilotcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8rem;
+}
+.trustPilot img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7.5rem;
+}
+.trustPilot p{
+    color:rgb(29,27,61);
+    font-weight: 650;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2rem;
+}
+.line2{
+    width: 65%;
+    margin: auto;
+    border-top: rgb(113, 172, 55) solid 1px;
+}
+.sphere{
+    width: 30px;
+    display: flex;
+    margin: auto;
+    padding-right: 5px;
+}
+.dropdown{
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgba(219, 219, 219, 0.973);
+    border-radius: 5px;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.dropdown button{
+    border: none;
+    background: transparent;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+.dropdown button:focus{
+    outline: none;
+}
+.dropdown button img{
+    height: 15px;
+    width: 25px;
+    background-color: transparent;
+}
+.dropdown p{
+    color:rgb(29,27,61);
+    font-weight: 650;
+    font-size: 17px;
+    line-height: 2rem;
+    padding-left: 2rem;
+    margin: auto 0;
+}
+
+/*Card section*/
+.cardslider .slick-arrow{
+    display: flex;
+    margin: auto;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+}
+.card{
+    width: 100%;
+    height: 30rem;
+}
+.cardheader {
+    width: 70%;
+    background-color: rgb(92,187,46);
+    margin-left: -9.5px;
+    margin-top: 30px;
+    height: 2.5rem;
+}
+.cardheader p{
+    font-weight: 650;
+    color: rgb(235, 235, 235);
+    font-size: 12px;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+}
+.card img{
+    height: 80px;
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.col-lg-2 img{
+    height: 35px;
+    width: 30px;
+    margin: auto 0;
+}
+.cardimgdetails p{
+    font-weight: 650;
+    color: rgb(132, 136, 148);
+    padding-top: 8px;
+    font-size: 14px;
+}
+.cardimgdetails h6{
+    text-align: start;
+    padding-top: 2rem;
+    color:rgb(23, 47, 92);
+    font-weight: bold;
+}
+.slidingicon{
+   height: 0;
+   width: 0;
+}
+/*Case studies*/
+.caseslider .slick-arrow{
+    display: flex;
+    margin: auto;
+}
+.cards{
+    background:  rgba(244, 244, 244);
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+}
+.cards p{
+    font-weight: 650;
+    color: rgb(132, 136, 148);
+    font-size: 14px;
+    padding: 10px;
+    line-height: 2rem;
+}
+.cards img{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+/*Trusted By*/
+.trustedpartner{
+    display: flex;
+    justify-content: center;
+}
+.trustedpartner .col-lg-8{
+    display: flex;
+    justify-content: space-around;
+}
+.trustedpartner img{
+    height: 80px;
+    width: 80px;
+}
+.trustedpartner2{
+    display: flex;
+    justify-content: center;
+}
+.trustedpartner2 .col-lg-10{
+    display: flex;
+    justify-content: space-around;
+}
+.trustedpartner2 img{
+    height: 60px;
+    width: 150px;
+}
+.trustedmobimg{
+    padding-bottom:6rem;
+}
+.trustedmobimg img{
+    height: 0;
+    width: 0;
+}
+/*Footer*/
+.footerbox{
+    display: flex;
+}
+.footerhead h6{
+    text-align: start;
+    padding-top: 1rem;
+    color:white;
+    font-weight: bold;
+}
+.servicelist{
+    display: flex;
+    justify-content: flex-start;
+}
+.servicelist ul li{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    line-height: 2rem;
+}
+.servicelist p{
+    color: white;
+    font-size: 12px;
+}
+.social-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -56px;
+}
+.social-menu ul{
+    display: flex;
+}
+.social-menu ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+.social-menu li .fa{
+    color: black;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 17px;
+    padding-top: 7px;
+}
+
+.copyright p {
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width:992px){
+    .headp p{
+        width: 80%;
+        color:white;
+        line-height: 1.5rem;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .col-lg-2 img{
+        height: 0;
+        width: 0;
+    }
+    
+    .social-menu{
+        display: flex;
+        justify-content: center;
+    }
+    .copyright p{
+        color:rgb(23, 46, 88);
+    }
+  
+}
+@media (max-width:768px){
+    .col-lg-2 img{
+        height: 0;
+        width: 0;
+    }
+    .headp p{
+        width: 80%;
+        color:white;
+        line-height: 1.5rem;
+        font-size: 14px;
+        text-align: start;
+        display: flex;
+        margin: 0 auto;
+    }
+    .banner .hbox{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ftl.col-sm-12{
+        align-items: center;
+    }
+    .vtl.col-sm-12{
+        align-items: center;
+    }
+    .vti.col-lg-6{
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .trustedpartner img{
+        height: 0;
+        width: 0;
+    }
+    .trustedpartner2 img{
+        height: 0;
+        width: 0;
+    }
+    .trustedmobimg img{
+        display: flex;
+        margin: auto;
+        height: 450px;
+        width: 300px;
+    }
+    .footerbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .servicelist{
+        display: flex;justify-content: space-between;
+    }
+    .btn img{
+        height: 0;
+        width: 0;
+    }
+    .imgvdo{
+        margin-top: -113px;
+        margin-right: 25px;
+    }
+}
+@media (max-width:500px){
+    .featuredimage{
+        height: 80px;
+        width: 80px;
+    }
+    .trustPilotbg{
+        height: 43rem;
+    }
+    .dropdown{
+        width: 100%;
+    }
+    .servicelist{
+        display: flex;justify-content: space-between;
+    }
+}
+
+
+
+
+
+
